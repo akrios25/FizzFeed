@@ -1,5 +1,6 @@
 package nyc.c4q.fizzfeed;
 
+import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.v7.app.AppCompatActivity;
 
@@ -10,7 +11,8 @@ import android.support.v7.app.AppCompatActivity;
 public class Quiz01 extends AppCompatActivity {
 
     @Override
-    public void setContentView(@LayoutRes int layoutResID) {
-        super.setContentView(R.layout.quiz_01_view);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.quiz_01_view);
     }
 }

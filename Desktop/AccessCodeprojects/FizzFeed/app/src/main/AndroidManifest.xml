@@ -15,6 +15,16 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.Quiz01"/>
+                <action android:name="android.intent.action.Quiz02"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Quiz01">
+
+        </activity>
+        <activity android:name=".Quiz02">
+
         </activity>
     </application>
 
